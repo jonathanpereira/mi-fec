@@ -1,0 +1,20 @@
+.button {
+  padding: 8px;
+  margin: 4px;
+  border: none;
+  border-radius: 4px;
+  color: var(--white);
+  cursor: pointer;
+}
+
+.primary {
+  background: var(--green);
+}
+
+.info {
+  background: var(--gray);  
+}
+
+.danger {
+  background: var(--red);
+}

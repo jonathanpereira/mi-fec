@@ -1,0 +1,29 @@
+:root {
+  --white: #fff;
+  --gray: #ccc;
+  --light-gray: #f5f5f5;
+  --dark-gray: #333;
+  --green: #00ab35;
+  --light-blue: #17a2b8;
+  --red: #dc3545;
+  --blue: #0056b3
+}
+
+body {
+  margin: 0;
+  color: var(--dark-gray);
+  font: 16px sans-serif;
+  box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+#root {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
